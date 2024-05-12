@@ -3,18 +3,26 @@ body {
   color: #2B283A;
 }
 
+/* --------------DestinationsLlist --------------- */
 .all-destinations-container {
   padding: 20px;
 }
 
-.one-destination-container>img {
+/* --------------Destination----------------------- */
+.location-logo-img {
+  width: 7px;
+  height: 10px;
+  padding-right: 5px;
+}
+
+.destination-image {
   width: 125px;
   height: 170px;
   border-radius: 5px;
 }
 
 .country {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 a {
@@ -24,33 +32,33 @@ a {
 
 .country-container {
   display: flex;
-  flex-direction: row;
-  font-size: 10px;
+  font-size: 0.625rem;
   padding-top: 20px;
 }
 
 .country-info {
   padding-left: 20px;
+  font-weight: 400;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 25px;
-}
-
+h1,
 h4 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
 p {
-  font-weight: 400;
-  font-size: 12px;
+  /* font-weight: 400; */
+  font-size: 0.75rem;
 }
 
 .one-destination-container {
   display: flex;
-  flex-direction: row;
-  justify-content: start;
+  /* flex-direction: row; */
+  /* justify-content: start; */
   margin: 10px;
   border-bottom: 1px #F5F5F5 solid;
 }
@@ -58,6 +66,8 @@ p {
 .all-destinations-container :last-child {
   border: none;
 }
+
+/* -----------Header---------------------- */
 
 header img {
   width: 32px;
@@ -73,11 +83,5 @@ header {
   height: 55px;
   color: white;
   font-weight: 500;
-  font-size: 15px;
-}
-
-.logo-img {
-  width: 7px;
-  height: 10px;
-  padding-right: 5px;
+  font-size: 1rem;
 }
